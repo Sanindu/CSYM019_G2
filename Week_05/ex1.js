@@ -4,9 +4,11 @@ function clickalert(){
 var element = document.getElementById('circle');
 //element.style.backgroundColor = 'blue';
 //element.style.opacity = '1.0';
-var opas = element.style.opacity;
+//var opas = element.style.opacity;
 // element.style.opacity = parseFloat(opas) + 0.1;
-element.style.opacity = parseFloat(opas) - 0.01;
+//element.style.opacity = parseFloat(opas) - 0.01;
+
+
 
 }
 function buttonclick() {
@@ -20,7 +22,7 @@ function opacityChange() {
    element.style.opacity = '1.0';
 }
 
-setInterval(clickalert, 10);
+setInterval(clickalert, 10000);
 
 document.addEventListener('DOMContentLoaded',opacityChange);
 document.addEventListener('DOMContentLoaded',buttonclick);
